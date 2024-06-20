@@ -135,21 +135,6 @@ REST_FRAMEWORK = {
     ),
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'p8u4DZxbX2UzaPO8$RV_Connect',
-#         'USER': 'p8u4DZxbX2UzaPO8',
-#         'PASSWORD': 'sarvagya',
-#         'HOST': 'p8u4DZxbX2UzaPO8hev0LDEUT0XcDM.mysql.pythonanywhere-services.com',
-#         'PORT': '',
-#         'OPTIONS': {
-#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-#             'charset': 'utf8mb4',
-#         },
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
